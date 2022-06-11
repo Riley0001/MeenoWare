@@ -124,7 +124,7 @@ TextButton.Position = UDim2.new(0.5, -171, 0.5, -135)
 TextButton.Size = UDim2.new(0, 342, 0, 271)
 TextButton.AutoButtonColor = false
 TextButton.Font = Enum.Font.SourceSansBold
-TextButton.Text = "Meeno Ware"
+TextButton.Text = "MeenoWare"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 25.000
 TextButton.TextWrapped = true
@@ -1154,7 +1154,7 @@ LoadingText.Text = "Unpacking API"
 tweenservice:Create(LoadingBar,TweenInfo.new(.12),{Size=udim2(.5,0,0,5)}):Play()
 wait(.34) -- no way! fake loading time.... grrrrrrr.
 if api.Info.__TYPE  == "UNIVERSAL" then
-	notify("This game is not supported. AIMWARE will do it's best but some things may break. DM me, YouBuggin#6330, with the game link and I'll add support for this game.","WARNING")
+	notify("This game is not supported. MeenoWare will do it's best but some things may break. DM me, rileyisfit#2222, with the game link and I'll add support for this game.","WARNING")
 end
 local periodic = api.PeriodicChecking
 api:Init()
@@ -1174,7 +1174,7 @@ end)
 
 local translate = api.Translate
 
-LoadingText.Text = "Setting up AIMWARE"
+LoadingText.Text = "Setting up MeenoWare"
 tweenservice:Create(LoadingBar,TweenInfo.new(.12),{Size=udim2(.78,0,0,5)}):Play()
 
 local fovcircle = Drawing.new("Circle")
